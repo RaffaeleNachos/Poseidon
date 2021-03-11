@@ -35,7 +35,7 @@ export function defaultMenuTemplate(app: Electron.App, shell: Electron.Shell) {
                 {
                     label: 'Select All',
                     accelerator: 'CmdOrCtrl+A',
-                    role: 'selectall'
+                    role: 'selectAll'
                 },
             ]
         },
@@ -141,7 +141,7 @@ export function defaultMenuTemplate(app: Electron.App, shell: Electron.Shell) {
                 {
                     label: 'Hide Others',
                     accelerator: 'Command+Shift+H',
-                    role: 'hideothers'
+                    role: 'hideOthers'
                 },
                 {
                     label: 'Show All',

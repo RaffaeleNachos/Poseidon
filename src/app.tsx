@@ -219,6 +219,7 @@ export class App extends React.Component<{}, AppState> implements MenuDelegate {
           onError={this.onMermaidError}
           onSuccess={this.onMermaidSuccess}
           theme={this.state.theme}
+          children=''
         >
           {this.state.mermaid + ''}
         </Mermaid>

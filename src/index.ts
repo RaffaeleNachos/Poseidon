@@ -25,9 +25,9 @@ const createWindow = async () => {
   // Create the browser window.
   mainWindow = new BrowserWindow({
     ...store.get('window.bounds', { width: 800, height: 600 }),
-    frame: false,
+    frame: true,
     backgroundColor: '#ffffff',
-    icon: path.resolve(__dirname, '..', 'Icon.icns')
+    icon: path.resolve(__dirname, 'aquarius_round.png')
   });
 
   // and load the index.html of the app.

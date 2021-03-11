@@ -61,12 +61,12 @@ export class AppMenuManager implements MenuDelegate {
             {
                 id: 'file',
                 label: 'File',
-                role: 'file',
+                role: 'fileMenu',
                 submenu: [
-                    { role: 'new', click: this.onNew, label: 'New', accelerator: 'CmdOrCtrl+n' },
-                    { role: 'open', click: this.onOpen, label: 'Open', accelerator: 'CmdOrCtrl+o' },
-                    { role: 'save', click: this.onSave, label: 'Save',  accelerator: 'CmdOrCtrl+s' },
-                    { role: 'export', click: this.onExport, label: 'Export',  accelerator: 'CmdOrCtrl+e' },
+                    { click: this.onNew, label: 'New', accelerator: 'CmdOrCtrl+n' },
+                    { click: this.onOpen, label: 'Open', accelerator: 'CmdOrCtrl+o' },
+                    { click: this.onSave, label: 'Save',  accelerator: 'CmdOrCtrl+s' },
+                    { click: this.onExport, label: 'Export',  accelerator: 'CmdOrCtrl+e' },
                 ]
             }
         ];
